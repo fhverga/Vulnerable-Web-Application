@@ -11,7 +11,7 @@ jobs:
      image: convisoappsec/convisocli:unstable
      env:
        FLOW_API_KEY: ${{secrets.CONVISO_API_KEY}}
-       CONVISO_ASSET_NAME: "github-terragoat-cli"
+       CONVISO_ASSET_NAME: "github-vwa-fverga-cli"
        CONVISO_COMPANY_ID: 600
    steps:
    - uses: actions/checkout@v4
